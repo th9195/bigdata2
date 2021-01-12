@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day09_homework_employe" />
+        <module name="day05_zookeeper_api" />
+        <module name="day08-hdfs-api" />
+        <module name="day09-mapreduce" />
+        <module name="day08-mapreduce_api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day05_zookeeper_api" target="1.8" />
+      <module name="day08-hdfs-api" target="1.5" />
+      <module name="day08-mapreduce_api" target="1.5" />
+      <module name="day09-mapreduce" target="1.5" />
+      <module name="day09_homework_employe" target="8" />
+      <module name="DemoHDFS" target="1.5" />
+      <module name="mapreduce" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

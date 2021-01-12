@@ -1,0 +1,4 @@
+# Project exclude paths
+/day05_zookeeper_api/target/
+/day08-hdfs-api/target/
+/day08-mapreduce_api/target/
