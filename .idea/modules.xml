@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day05_zookeeper_api/day05_zookeeper_api.iml" filepath="$PROJECT_DIR$/day05_zookeeper_api/day05_zookeeper_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-hdfs-api/day08-hdfs-api.iml" filepath="$PROJECT_DIR$/day08-hdfs-api/day08-hdfs-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-mapreduce_api/day08-mapreduce_api.iml" filepath="$PROJECT_DIR$/day08-mapreduce_api/day08-mapreduce_api.iml" />
+    </modules>
+  </component>
+</project>
