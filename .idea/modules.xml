@@ -5,8 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/day05_zookeeper_api/day05_zookeeper_api.iml" filepath="$PROJECT_DIR$/day05_zookeeper_api/day05_zookeeper_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08-hdfs-api/day08-hdfs-api.iml" filepath="$PROJECT_DIR$/day08-hdfs-api/day08-hdfs-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08-mapreduce_api/day08-mapreduce_api.iml" filepath="$PROJECT_DIR$/day08-mapreduce_api/day08-mapreduce_api.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/day09-mapreduce/day09-mapreduce.iml" filepath="$PROJECT_DIR$/day09-mapreduce/day09-mapreduce.iml" />
       <module fileurl="file://$PROJECT_DIR$/day09_homework_employe/day09_homework_employe.iml" filepath="$PROJECT_DIR$/day09_homework_employe/day09_homework_employe.iml" />
+=======
+>>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
     </modules>
   </component>
 </project>

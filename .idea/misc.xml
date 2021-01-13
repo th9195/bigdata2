@@ -8,8 +8,11 @@
         <option value="$PROJECT_DIR$/mapreduce/pom.xml" />
         <option value="$PROJECT_DIR$/day08-hdfs-api/pom.xml" />
         <option value="$PROJECT_DIR$/day08-mapreduce_api/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/day09-mapreduce/pom.xml" />
         <option value="$PROJECT_DIR$/day09_homework_employe/pom.xml" />
+=======
+>>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
       </list>
     </option>
   </component>
