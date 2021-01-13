@@ -43,6 +43,11 @@ public class EmployeMapper extends Mapper<LongWritable, Text, Employe,NullWritab
         if ( "null".equalsIgnoreCase(eleArr[0]) ) {
             return  null;
         }
+        // 判断薪水和提成是不是数字，如果不是数字 丢弃这条数据
+        boolean isnum = NumberUtils.isNumber(eleArr[5]) && NumberUtils.isNumber(eleArr[6]);
+        if ( !isnum ) {
+            return null;
+        }
 
         employe.setEmployeId(eleArr[0]);
         employe.setName(eleArr[1]);
@@ -50,11 +55,7 @@ public class EmployeMapper extends Mapper<LongWritable, Text, Employe,NullWritab
         employe.setSuperiorId(eleArr[3]);
         employe.setEntryDay(DateFormatUtils.strToDate("dd-MM月-yy",eleArr[4]));
 
-        // 判断薪水和提成是不是数字，如果不是数字 丢弃这条数据
-        boolean isnum = NumberUtils.isNumber(eleArr[5]) && NumberUtils.isNumber(eleArr[6]);
-        if ( !isnum ) {
-            return null;
-        }
+
         employe.setSalary(Double.parseDouble(eleArr[5]));
         employe.setExtraSalary(Double.parseDouble(eleArr[6]));
         employe.setStatmentId(eleArr[7]);

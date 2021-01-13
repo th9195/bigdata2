@@ -1,5 +1,6 @@
 package com.fiberhome.mapreduce;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
@@ -26,11 +27,17 @@ public class MyPartitioner extends Partitioner<Text, NullWritable> {
         // 1- 拆分k2
         String[] strArr = text.toString().split("\t");
         // 2- 判断index = 5 的数据是否 大于 15
-        if ( Integer.parseInt(strArr[0]) < 15 ) {
-            return 0;
-        }else {
-            return 1;
+
+        System.out.println("**********strArr[0] == " + strArr[0]);
+        boolean notEmpty = StringUtils.isNotEmpty(strArr[0]);
+        if (notEmpty ) {
+            if ( Integer.parseInt(strArr[0]) < 15 ) {
+                return 0;
+            }else {
+                return 1;
+            }
         }
 
+        return 0;
     }
 }

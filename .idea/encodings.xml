@@ -5,7 +5,15 @@
     <file url="file://$PROJECT_DIR$/day08-mapreduce_api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day09-mapreduce/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day09-mapreduce/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09-sortDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09-sortDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day09_homework_employe/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day09_homework_employe/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10_Combiner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10_Combiner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10_gouping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10_gouping/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10_homework_flowcount/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day10_homework_flowcount/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -6,28 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
+        <module name="day09-sortDemo" />
+        <module name="day10_gouping" />
+        <module name="day10_homework_flowcount" />
+        <module name="day08-hdfs-api" />
+        <module name="mapreduce" />
         <module name="day09_homework_employe" />
         <module name="day05_zookeeper_api" />
-        <module name="day08-hdfs-api" />
         <module name="day09-mapreduce" />
-=======
-        <module name="day08-hdfs-api" />
-        <module name="day05_zookeeper_api" />
->>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
-        <module name="day08-mapreduce_api" />
+        <module name="day10_Combiner" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day05_zookeeper_api" target="1.8" />
       <module name="day08-hdfs-api" target="1.5" />
-      <module name="day08-mapreduce_api" target="1.5" />
-<<<<<<< HEAD
       <module name="day09-mapreduce" target="1.5" />
+      <module name="day09-sortDemo" target="8" />
       <module name="day09_homework_employe" target="8" />
-=======
->>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
-      <module name="DemoHDFS" target="1.5" />
+      <module name="day10_Combiner" target="8" />
+      <module name="day10_gouping" target="8" />
+      <module name="day10_homework_flowcount" target="8" />
       <module name="mapreduce" target="1.5" />
     </bytecodeTargetLevel>
   </component>
