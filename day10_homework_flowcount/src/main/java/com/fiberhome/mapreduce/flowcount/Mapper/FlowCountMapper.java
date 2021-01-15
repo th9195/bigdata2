@@ -25,7 +25,7 @@ public class FlowCountMapper extends Mapper<LongWritable, Text,Text, FlowBean> {
         System.out.println(flowBean);
         context.write(k2,flowBean);
 
-        
+
         System.out.println("******************end mapper*****************");
     }
 }
