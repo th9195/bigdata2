@@ -17,12 +17,9 @@ import java.io.IOException;
  * V2  :LongWritable    固定值1
  */
 public class WordCountMapper extends Mapper<LongWritable,Text,Text,LongWritable> {
-<<<<<<< HEAD
-
 
     public static long countMapper = 0;
-=======
->>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
+
     // 2- 重写map方法， 将K1 V1 转成 K2 V2
 
     /**
@@ -46,13 +43,11 @@ public class WordCountMapper extends Mapper<LongWritable,Text,Text,LongWritable>
             k2.set(word);
             context.write(k2,v2);
         }
-<<<<<<< HEAD
+
 
         countMapper++ ;
         System.out.println("countMapper == " + countMapper);
 
 
-=======
->>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
     }
 }

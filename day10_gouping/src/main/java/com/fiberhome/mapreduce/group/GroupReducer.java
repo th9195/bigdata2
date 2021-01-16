@@ -11,17 +11,19 @@ public class GroupReducer extends Reducer<OrderBean, Text,Text, NullWritable> {
 
     @Override
     protected void reduce(OrderBean key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+
+        int topNum = 1;  // 取前几名
+
         //Text k3 = values.iterator().hasNext() ? values.iterator().next();
         Text k3 = null;
         int cout = 0 ;
         for (Text value : values) {
             k3 = value;
+            context.write(k3,NullWritable.get());
             cout++;
-            if ( cout >= 1 ) {
+            if ( cout >= topNum ) {
                 break;
             }
         }
-
-        context.write(k3,NullWritable.get());
     }
 }

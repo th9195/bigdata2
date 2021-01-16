@@ -19,11 +19,9 @@ import java.io.IOException;
  */
 public class WordCountReducer extends Reducer<Text, LongWritable,Text,LongWritable> {
 
-<<<<<<< HEAD
-    public static long countReducer = 0;
-=======
 
->>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
+    public static long countReducer = 0;
+
     // 2-  重写reduce方法，在方法中将 k2 [v2] 转成 k2 v3
     /**
      *
@@ -46,12 +44,8 @@ public class WordCountReducer extends Reducer<Text, LongWritable,Text,LongWritab
         LongWritable v3 = new LongWritable(v);
         // 3- 将k3 v3 写入上下文中
         context.write(k2,v3);
-<<<<<<< HEAD
-
-
         countReducer++;
         System.out.println("countReducer == " + countReducer);
-=======
->>>>>>> 914c2b7e90177aded7d833dfc6cfcd8ae809b5c0
+
     }
 }
