@@ -12,7 +12,7 @@ public class GroupReducer extends Reducer<OrderBean, Text,Text, NullWritable> {
     @Override
     protected void reduce(OrderBean key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
 
-        int topNum = 1;  // 取前几名
+        int topNum = 2;  // 取前几名
 
         //Text k3 = values.iterator().hasNext() ? values.iterator().next();
         Text k3 = null;

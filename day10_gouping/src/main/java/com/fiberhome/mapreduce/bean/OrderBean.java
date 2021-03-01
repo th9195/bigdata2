@@ -37,11 +37,13 @@ public class OrderBean implements WritableComparable<OrderBean> {
 
     @Override
     public int compareTo(OrderBean o) {
+
+        // 注意：1- 根据什么分组，就必须先要根据这个排序；2- 取topN 也要根据这个排序；
         int result = this.orderId.compareTo(o.orderId);
         if ( 0 == result ) {
-            result = (int) (this.money - o.money);
+            result = (int) (o.money - this.money );
         }
-        return -result;
+        return result;
     }
 
     @Override

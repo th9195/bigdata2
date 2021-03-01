@@ -12,8 +12,9 @@ public class GroupingMapper extends Mapper<LongWritable, Text, OrderBean,Text> {
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         // 1- 获取k2
         OrderBean orderBean = new OrderBean();
-        String[] arrs = value.toString().split(",");
+        String[] arrs = value.toString().split("\t");
         orderBean.setOrderId(arrs[0]);
+
         orderBean.setMoney(Double.parseDouble(arrs[2]));
 
         // 2- 获取v2
